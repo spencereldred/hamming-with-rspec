@@ -1,10 +1,15 @@
 # Hamming with Rspec
 
 ## Intro
-This is the same hamming exercise that we did last week. The difference is that this time the tests are written using
-a testing library called RSpec.
+This is the same hamming exercise that we did last week. We are going to do it again using objects and RSpec.
 
-## Instructions
+## Exercise
+
+1. Clone the repository and navigate into the hamming-with-rspec directory
+1. Run the tests
+1. When the first test passes, un-skip the second test and so on
+
+## Hamming
 
 Write a program that can calculate the Hamming difference between two DNA strands.
 
@@ -21,14 +26,6 @@ This is called the 'Hamming distance'
     ^ ^ ^  ^ ^    ^^
 
 The Hamming distance between these two DNA strands is 7.
-
-## Exercise
-
-1. Fork and clone the repository and navigate into the hamming-with-rspec directory
-1. Make sure you have rspec installed on your computer by running `gem install rspec`
-1. run the `rspec` command in your terminal. You should see 1 failing test (in red) and 6 pending tests (in yellow)
-1. Make the first test pass, un-pend the second test, and so on until all the tests are passing.
-
 
 ## Source
 
